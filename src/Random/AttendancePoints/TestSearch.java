@@ -1,11 +1,3 @@
-package Random;
-import java.util.Arrays;
-import java.util.Random;
-
-
-public class AttendancePoints {
-
-    // Prvi zadatak :
 //    Napisati program TestSearch2 za poređenje brzine dva algoritma pretrage
 //    sortiranog niza. Preciznije, program treba da sadrži bar ove metode:
 //            (a) Metod seqSearch(a,x), kojim se sekvencijalno pretražuje celobrojni
@@ -20,6 +12,14 @@ public class AttendancePoints {
 //    slučajni broj 𝑥, a na kraju se taj broj 𝑥 traži u sortiranom slučajnom nizu
 //    𝑎 primenom oba prethodna metoda i prikazuje pojedinačno vreme koje
 //    je utrošeno za njihovo izvršavanje
+
+
+package Random.AttendancePoints;
+import java.util.Arrays;
+import java.util.Random;
+
+
+public class TestSearch {
 
 
     public static int linearSearch(int[] arr, int target) {

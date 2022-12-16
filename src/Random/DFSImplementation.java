@@ -1,11 +1,13 @@
+package Random;
+
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class DFS {
+public class DFSImplementation {
     int V;
     ArrayList<Integer>[] adj;
 
-    DFS(int noOfvertex){
+    DFSImplementation(int noOfvertex){
         V= noOfvertex;
         adj  = new ArrayList[noOfvertex];
         for (int i = 0; i < noOfvertex ; i++) {
@@ -44,7 +46,7 @@ public class DFS {
 
 
     public static void main(String[] args) {
-        DFS dfs1 = new DFS(6);
+        DFSImplementation dfs1 = new DFSImplementation(6);
         dfs1.edge(0,1);
         dfs1.edge(0,2);
         dfs1.edge(0,5);
