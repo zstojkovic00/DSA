@@ -1,6 +1,18 @@
+
+//Napisati Java (Python) program za rešenje problema stabilnih brakova. Pre‐
+//        ciznije, program treba da sadrži bar ova dva metoda:
+//        (1) Metod smp(PM,PD) koji, za ulazne matrice preferenci PM i PD momaka i
+//        devojaka, implementira algoritam smp za rešenje problema stabilnih bra‐
+//        kova. Za realizaciju ovog metoda treba isključivo koristiti strukture poda‐
+//        taka koje su navedene na 92. strani u udžbeniku (tj. nizove i matrice).
+//        (2) Metod main(), u kome se na slučajan način generišu matrice preferenci
+//        momaka i devojaka za različite vrednosti broja momaka i devojaka 𝑛 =
+//        5, 10, 15, 20, a zatim se prikazuju skupovi parova stabilnih brakova dobi‐
+//        jenih pozivom prethodnog metoda smp(PM,PD) za svako 𝑛
+
+
+
 package Random.AttendancePoints;
-
-
 import java.util.Arrays;
 import java.util.Random;
 
