@@ -1,4 +1,4 @@
-package BinaryTree;
+package Tree.BinaryTree;
 
 import java.util.Scanner;
 
