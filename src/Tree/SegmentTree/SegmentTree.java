@@ -1,5 +1,14 @@
 package Tree.SegmentTree;
 
+/*
+Segment Tree also known as a statistic tree is a tree used for storing information about intervals, or segments
+it allows querying which of the stored segments contain a given point.
+1 Case: Node is completely lying inside query
+2 Case: Completely outside
+3 Case: Overlapping
+ */
+
+
 public class SegmentTree {
     private static class Node {
         int data;
