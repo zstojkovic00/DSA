@@ -1,7 +1,15 @@
 package Tree.AVLTree;
-
-
 import lombok.Getter;
+
+/*
+AVL (Adelson-Velsky and Landis) tree is a self-balancing binary search tree where the difference between heights
+of left and right subtrees for any node cannot be more than one.
+AVL tree rotate to keep itself balanced
+1 Case: Left
+2 Case: Left - Right
+3 Case: Right
+4 Case: Right - Left
+ */
 
 public class AVL {
 
