@@ -1,9 +1,19 @@
 package Tree.RedBlackTree;
 
-
-import Tree.AVLTree.AVL;
 import lombok.Data;
 
+/*
+Red-Black Tree is a self-balancing binary search tree. It was introduced by Rudolf Bayer and Volker Strassen.
+While Red-Black Trees share similarities with AVL Trees in their self-balancing.
+Red-Black Trees trade-off between perfect balance and number of rotations
+
+It has same properties like binary tree plus few more:
+    1) Node color: RED or BLACK
+    2) Root property: The root is always black
+    3) External property: Every external node is black
+    4) Red property: IChildren of red node must be black
+    5) Black depth property: The number of black nodes from the root to any NULL node in any path must be the same
+ */
 public class RedBlackTree {
 
 
